@@ -1,0 +1,118 @@
+/*
+	Général
+*/
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+	Layout
+*/
+
+.header-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin:0;
+	height:8vh;
+	background-color: rgb(48, 48, 48);;
+	box-sizing: border-box;
+}
+
+.header-content > h1{
+	/*color: #28347c;*/
+	color: white;
+	margin: 0;
+}
+
+.content-container {
+	width: 100vw;
+	height: 92vh;
+	background-color: grey;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.barchart-container {
+	width: 30vw;
+	height: 92vh;
+	box-sizing: border-box;
+	display: inline-block;
+/*	flex-grow: 3;
+	position:relative;
+vertical-align: middle;*/
+overflow-y: scroll;
+overflow-x: hidden;}
+
+.barchart-content {
+  display: inline-block;
+position: absolute;
+width:100%;
+height:100%;
+top: 0;
+left: 0;
+}
+
+.map-container {
+	width: 50vw;
+	height: 92vh;
+	display: inline-block;
+	background-color: green;
+	box-sizing: border-box;
+/*	flex-grow:6;*/
+}
+
+.info-container {
+	width: 20vw;
+	height: 92vh;
+	display: inline-block;
+	background-color: blue;
+	box-sizing: border-box;
+	/*flex-grow: 2;*/
+}
+
+
+/*
+	Carte
+*/
+#map {
+
+/*	width: 100%;
+	height: 100%;
+*/
+}
+.info {
+	padding: 6px 8px;
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+.info-data {
+	min-width:20vw;
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+.legend {
+	text-align: left;
+	line-height: 18px;
+	color: #555;
+}
+.legend i {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin-right: 8px;
+	opacity: 0.7;
+	}
+
+/*
+	Barchart
+*/

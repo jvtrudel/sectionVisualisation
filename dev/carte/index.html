@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Carte des sections de vote | Rimouski</title>
+
+	<link rel="stylesheet" href="dev.css"/>
+	<link rel="stylesheet" href="../css/sections-map.css"/>
+	<link rel="stylesheet" href="../css/colors.css"/>
+	<script src="../vendors/d3/d3.v5.js"></script>
+	<script src="../vendors/d3/d3-geo.min.js"></script>
+	<!--script src="../vendors/d3/d3-geo-projection.min.js"></script-->
+	<script src="../js/carte.js"></script>
+
+</head>
+<body>
+
+
+<div class="map-container">
+</div>
+
+  <script>
+
+var params={
+	anchor:".map-container"
+};
+var c=carte(params)
+	.dumpVar()
+	.loadData("../data/data.geo.json");
+
+
+  /*
+var width = 700,
+    height = 580;
+
+var svg = d3.select( ".map-container" )
+  .append( "svg" )
+  .attr( "width", width )
+  .attr( "height", height );
+
+var g = svg.append( "g" );
+
+var albersProjection = d3.geoAlbers()
+  .scale( 190000 )
+  .rotate( [71.057,0] )
+  .center( [0, 42.313] )
+  .translate( [width/2,height/2] );
+
+var geoPath = d3.geoPath()
+    .projection( albersProjection );
+
+g.selectAll( "path" )
+  .data( neighborhoods_json.features )
+  .enter()
+  .append( "path" )
+  .attr( "fill", "#ccc" )
+  .attr( "d", geoPath );
+*/
+  </script>
+</html>

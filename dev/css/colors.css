@@ -1,0 +1,57 @@
+
+
+
+.qs-0 {
+	fill:#f9cdbc;
+}
+.qs-1 {
+	fill:#ff8f5f;
+}
+.qs-2 {
+	fill:#ff5505;
+}
+
+.pq-0 {
+	fill:#bcbfd6;
+}
+.pq-1 {
+	fill:#838bb3;
+}
+.pq-2 {
+	fill:#163b7a;
+}
+
+.caq-0 {
+	fill:#cbe7fb;
+}
+.caq-1 {
+	fill:#9ad3f7;
+}
+.caq-2 {
+	fill:#00b4f1;
+}
+
+.plq-0 {
+	fill:#ffe3dd;
+}
+.plq-1 {
+	fill:#fc685d;
+}
+.plq-2 {
+	fill:#ed1b2e;
+}
+
+.section-path{
+	stroke: #FFF;
+	stroke-width: 4;
+	stroke-linejoin:"round";
+	stroke-linecap:"round";
+	fill-rule:"evenodd";
+	stroke-dasharray:8;
+}
+
+.section-path.highlight{
+	stroke: #000;
+	stroke-width: 5;
+	stroke-dasharray:10;
+}
